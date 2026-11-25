@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'GestionCabinetMedical.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / '3A26.sqlite3',
+        'NAME': BASE_DIR / 'RanimBenRhaim.sqlite3',
     }
 }
 
@@ -125,3 +125,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+AUTH_USER_MODEL = 'AccountApp.User'
